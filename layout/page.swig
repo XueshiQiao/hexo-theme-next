@@ -50,7 +50,7 @@
               {{ _p('counter.categories', site.categories.length) }}
             </div>
             <div class="category-all">
-              {{ list_categories() }}
+              {{ list_categories({order: -1}) }}
             </div>
           </div>
         {% elif page.type === 'schedule' %}
