@@ -118,8 +118,8 @@ darkmode: true
 menu:
   home: / || fa fa-home
   archives: /archives/ || fa fa-archive
-  #categories: /categories/ || fa fa-th
-  #tags: /tags/ || fa fa-tags
+  categories: /categories/ || fa fa-th
+  tags: /tags/ || fa fa-tags
   about: /AboutMe/ || fa fa-user
   #schedule: /schedule/ || fa fa-calendar
   #sitemap: /sitemap.xml || fa fa-sitemap
