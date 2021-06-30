@@ -60,6 +60,17 @@
   {%- endif %}
 {%- endif %}
 
+<div id="cusdis_thread"
+  data-host="https://cusdis.com"
+  data-app-id="83216a88-5988-42d9-9a52-c06693f25b13"
+  data-page-id="{{ page.title }}"
+  data-page-url="{{ url }}"
+  data-page-title="{{ page.title }}"
+  data-theme="dark"
+></div>
+<script async defer src="https://cusdis.com/js/cusdis.es.js"></script>
+
+
 <script>
   window.addEventListener('tabs:register', () => {
     let { activeClass } = CONFIG.comments;
